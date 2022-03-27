@@ -18,8 +18,8 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
-
-        app:layout_anchorGravity="center">
+        app:layout_anchorGravity="center"
+        android:layout_marginTop="15dp">
 
         <ImageView
             android:layout_width="200dp"
@@ -32,16 +32,15 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="10dp"
-            android:layout_marginRight="10dp"
-            android:orientation="horizontal">
+            android:orientation="horizontal"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp">
 
             <ImageView
-                android:layout_width="50dp"
-                android:layout_height="50dp"
-                android:layout_marginTop="25dp"
-                android:src="@drawable/ic_email_white_50x50"
-                android:contentDescription="@string/correo_electronico" />
+                android:layout_width="30dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="35dp"
+                android:src="@drawable/ic_email_white" />
 
             <com.google.android.material.textfield.TextInputLayout
                 android:layout_width="match_parent"
@@ -51,9 +50,7 @@
 
                 <com.google.android.material.textfield.TextInputEditText
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="10dp"
-                    android:layout_marginTop="15dp"
+                    android:layout_height="48dp"
                     android:hint="@string/correo_electronico"
                     android:inputType="textEmailAddress" />
 
@@ -64,16 +61,15 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="10dp"
-            android:layout_marginRight="10dp"
-            android:orientation="horizontal">
+            android:orientation="horizontal"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp">
 
             <ImageView
-                android:layout_width="50dp"
-                android:layout_height="50dp"
-                android:layout_marginTop="25dp"
-                android:src="@drawable/ic_password_white_50x50"
-                android:contentDescription="@string/contrasenia" />
+                android:layout_width="30dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="35dp"
+                android:src="@drawable/ic_password_white" />
 
             <com.google.android.material.textfield.TextInputLayout
                 android:layout_width="match_parent"
@@ -83,9 +79,7 @@
 
                 <com.google.android.material.textfield.TextInputEditText
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="10dp"
-                    android:layout_marginTop="15dp"
+                    android:layout_height="48dp"
                     android:hint="@string/contrasenia"
                     android:inputType="textPassword" />
 
@@ -100,7 +94,7 @@
             android:layout_marginLeft="20dp"
             android:layout_marginTop="20dp"
             android:layout_marginRight="20dp"
-            android:background="#242147"
+            android:background="#0B5BAA"
             android:text="@string/iniciar_sesion"
             android:textColor="@color/white" />
 
