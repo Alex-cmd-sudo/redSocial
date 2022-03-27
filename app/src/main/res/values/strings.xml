@@ -1,9 +1,9 @@
 <resources>
-    <string name="app_name">redSocial</string>
+    <string name="app_name">Red Social</string>
     <string name="foto_de_usuario">Foto de usuario</string>
     <string name="correo_electronico">Correo electronico</string>
     <string name="sin_cuenta">¿No tienes cuenta?</string>
     <string name="contrasenia">Contraseña</string>
-    <string name="registrate_aqui" />
-    <string name="iniciar_sesion">iniciar_sesion</string>
+    <string name="registrate_aqui">Registrate aquí</string>
+    <string name="iniciar_sesion">Iniciar sesión</string>
 </resources>

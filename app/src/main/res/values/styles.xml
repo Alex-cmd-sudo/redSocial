@@ -1,9 +1,3 @@
 <resources>
-    <style name="EditTextWhite" parent="TextAppearance.AppCompat">
-        <item name="android:textColorHint">@color/white</item>
-        <item name="android:textColorPrimary">@color/white</item>
-        <item name="colorAccent">@color/white</item>
-        <item name="colorControlNormal">@color/white</item>
-        <item name="colorControlActivated">@color/white</item>
-    </style>
+
 </resources>
