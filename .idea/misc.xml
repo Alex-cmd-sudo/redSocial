@@ -3,7 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Ale_z/AndroidStudioProjects/redSocial/app/src/main/res/drawable/ic_email_white_50x50.xml" value="0.2435" />
+        <entry key="..\:/Users/Ale_z/AndroidStudioProjects/redSocial/app/src/main/res/drawable/ic_password_white_50x50.xml" value="0.2435" />
         <entry key="..\:/Users/Ale_z/AndroidStudioProjects/redSocial/app/src/main/res/drawable/ic_remove_circle.xml" value="0.332" />
+        <entry key="..\:/Users/Ale_z/AndroidStudioProjects/redSocial/app/src/main/res/layout/activity_main.xml" value="0.25" />
       </map>
     </option>
   </component>
